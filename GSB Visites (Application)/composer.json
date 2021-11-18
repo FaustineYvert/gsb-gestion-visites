@@ -1,0 +1,20 @@
+{
+	"name": "faustine/gsb_visites",
+	"description": "projet mvc gsb_visites",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"author": [
+		{
+			"name": "faustine",
+			"email": "faustine.yvert@gmail.com"
+		}
+	],
+	"require": {
+		"ext-pdo": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	}
+}
